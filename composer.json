@@ -1,0 +1,22 @@
+{
+    "name": "grosswardt/coregenix-config",
+    "description": "Coregenix config provides the configuration parameters for a coregenix environment.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Christoph Grosswardt",
+            "email": "christoph@grosswardt.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "cgrosswardt\\coregenix\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "*"
+    }
+}
