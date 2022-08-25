@@ -1,0 +1,2 @@
+# coregenix-config
+Coregenix Config
